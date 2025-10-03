@@ -8,14 +8,13 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <script>
         tailwind.config = {
             theme: {
                 extend: {
                     fontFamily: {
-                        'raleway': ['Verdana', 'sans-serif'],
+                        'poppins': ['Poppins', 'sans-serif'],
                     },
                     colors: {
                         'cream': '#FDF6E3',
@@ -56,119 +55,96 @@
             }
         }
     </script>
-
-
 </head>
 
-<body class="font-raleway bg-cream text-gray-800">
+<body class="font-poppins bg-cream text-gray-800">
     <!-- Hero Section -->
     <div class="relative w-full overflow-hidden h-screen min-h-screen">
-
         <!-- Background Image - Using Tailwind classes -->
         <div class="absolute inset-0 w-full h-116 -top-24 z-0 bg-palace bg-cover bg-center bg-no-repeat"></div>
         <!-- Main Title -->
-        <h1
-            class="absolute top-72 md:top-80 lg:top-96 left-12 lg:left-15 text-white text-xl md:text-2xl lg:text-5xl font-semibold z-20 max-w-[60%] pr-8 leading-relaxed tracking-wide">
-            Goa’s unique Tripurari Poornima celebrations | Goa | Manjulika Pramod
+        <h1 class="absolute top-72 md:top-80 lg:top-96 left-12 lg:left-15 text-white text-xl md:text-2xl lg:text-5xl font-semibold z-20 max-w-[60%] pr-8 leading-relaxed tracking-wide font-poppins">
+            Goa's unique Tripurari Poornima celebrations | Goa | Manjulika Pramod
         </h1>
 
         <!-- Desktop Video Cards with Vertical Loop Scroll -->
-<div class="absolute right-10 top-1/2 transform -translate-y-1/2 hidden lg:block">
-     <!-- Up Arrow -->
-    <button id="scrollUp"
-        class="w-10 h-10 bg-black/50 hover:bg-black/70 rounded-full flex items-center justify-center mb-4 transition-all duration-300 border border-white/20 hover:border-white/40">
-        <svg class="w-5 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path>
-        </svg>
-    </button>
+        <div class="absolute right-10 top-1/2 transform -translate-y-1/2 hidden lg:block">
+            <!-- Up Arrow -->
+            <button id="scrollUp" class="w-10 h-10 bg-black/50 hover:bg-black/70 rounded-full flex items-center justify-center mb-4 transition-all duration-300 border border-white/20 hover:border-white/40">
+                <svg class="w-5 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path>
+                </svg>
+            </button>
 
-    <!-- Scrollable Container -->
-    <div id="videoContainer" class="h-[620px] overflow-hidden mb-4">
-        <div id="videoScroll" class="flex flex-col gap-5 transition-transform duration-500 ease-in-out">
-            <!-- Video Card 1 -->
-            <div
-                class="relative w-96 h-48 bg-gradient-to-br from-black/30 via-black/50 to-black/70 rounded-xl overflow-hidden backdrop-blur-sm border border-white/10 transition-all duration-300 cursor-pointer hover:-translate-y-2 hover:scale-105 hover:shadow-2xl hover:border-white/30 bg-video-1 bg-cover bg-center bg-blend-overlay">
-                <div class="absolute bottom-5 left-5 right-5 text-white text-sm font-medium leading-tight z-30">
-                    Reinventing the WAY, we travel | Goa | Shikha Tripathi
+            <!-- Scrollable Container -->
+            <div id="videoContainer" class="h-[620px] overflow-hidden mb-4">
+                <div id="videoScroll" class="flex flex-col gap-5 transition-transform duration-500 ease-in-out">
+                    <!-- Video Card 1 -->
+                    <div class="relative w-96 h-48 bg-gradient-to-br from-black/30 via-black/50 to-black/70 rounded-xl overflow-hidden backdrop-blur-sm border border-white/10 transition-all duration-300 cursor-pointer hover:-translate-y-2 hover:scale-105 hover:shadow-2xl hover:border-white/30 bg-video-1 bg-cover bg-center bg-blend-overlay">
+                        <div class="absolute bottom-5 left-5 right-5 text-white text-sm font-medium leading-tight z-30 font-poppins">
+                            Reinventing the WAY, we travel | Goa | Shikha Tripathi
+                        </div>
+                    </div>
+
+                    <!-- Video Card 2 -->
+                    <div class="relative w-96 h-48 bg-gradient-to-br from-black/30 via-black/50 to-black/70 rounded-xl overflow-hidden backdrop-blur-sm border border-white/10 transition-all duration-300 cursor-pointer hover:-translate-y-2 hover:scale-105 hover:shadow-2xl hover:border-white/30 bg-video-2 bg-cover bg-center bg-blend-overlay">
+                        <div class="absolute bottom-5 left-5 right-5 text-white text-sm font-medium leading-tight z-30 font-poppins">
+                            The Best places for sundowners | Goa | Pallavi Pasricha
+                        </div>
+                    </div>
+
+                    <!-- Video Card 3 -->
+                    <div class="relative w-96 h-48 bg-gradient-to-br from-black/30 via-black/50 to-black/70 rounded-xl overflow-hidden backdrop-blur-sm border border-white/10 transition-all duration-300 cursor-pointer hover:-translate-y-2 hover:scale-105 hover:shadow-2xl hover:border-white/30 bg-video-3 bg-cover bg-center bg-blend-overlay">
+                        <div class="absolute bottom-5 left-5 right-5 text-white text-sm font-medium leading-tight z-30 font-poppins">
+                            Goin' Goan Chef by Chef | Goa | Bunny Suraiya
+                        </div>
+                    </div>
+
+                    <!-- Video Card 4 -->
+                    <div class="relative w-96 h-48 bg-gradient-to-br from-black/30 via-black/50 to-black/70 rounded-xl overflow-hidden backdrop-blur-sm border border-white/10 transition-all duration-300 cursor-pointer hover:-translate-y-2 hover:scale-105 hover:shadow-2xl hover:border-white/30 bg-video-4 bg-cover bg-center bg-blend-overlay">
+                        <div class="absolute bottom-5 left-5 right-5 text-white text-sm font-medium leading-tight z-30 font-poppins">
+                            A cruise into the sunset | Goa | Anuradha Goyal
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <!-- Video Card 2 -->
-            <div
-                class="relative w-96 h-48 bg-gradient-to-br from-black/30 via-black/50 to-black/70 rounded-xl overflow-hidden backdrop-blur-sm border border-white/10 transition-all duration-300 cursor-pointer hover:-translate-y-2 hover:scale-105 hover:shadow-2xl hover:border-white/30 bg-video-2 bg-cover bg-center bg-blend-overlay">
-                <div class="absolute bottom-5 left-5 right-5 text-white text-sm font-medium leading-tight z-30">
-                    The Best places for sundowners | Goa | Pallavi Pasricha
-                </div>
-            </div>
-
-            <!-- Video Card 3 -->
-            <div
-                class="relative w-96 h-48 bg-gradient-to-br from-black/30 via-black/50 to-black/70 rounded-xl overflow-hidden backdrop-blur-sm border border-white/10 transition-all duration-300 cursor-pointer hover:-translate-y-2 hover:scale-105 hover:shadow-2xl hover:border-white/30 bg-video-3 bg-cover bg-center bg-blend-overlay">
-                <div class="absolute bottom-5 left-5 right-5 text-white text-sm font-medium leading-tight z-30">
-                    Goin' Goan Chef by Chef | Goa | Bunny Suraiya
-                </div>
-            </div>
-
-            <!-- Video Card 4 -->
-            <div
-                class="relative w-96 h-48 bg-gradient-to-br from-black/30 via-black/50 to-black/70 rounded-xl overflow-hidden backdrop-blur-sm border border-white/10 transition-all duration-300 cursor-pointer hover:-translate-y-2 hover:scale-105 hover:shadow-2xl hover:border-white/30 bg-video-4 bg-cover bg-center bg-blend-overlay">
-                <div class="absolute bottom-5 left-5 right-5 text-white text-sm font-medium leading-tight z-30">
-                    A cruise into the sunset | Goa | Anuradha Goyal
-                </div>
-            </div>
+            <!-- Down Arrow -->
+            <button id="scrollDown" class="w-10 h-10 bg-black/50 hover:bg-black/70 rounded-full flex items-center justify-center mb-2 transition-all duration-300 border border-white/20 hover:border-white/40">
+                <svg class="w-5 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+            </button>
         </div>
-    </div>
-
-     <!-- Down Arrow -->
-    <button id="scrollDown"
-        class="w-10 h-10 bg-black/50 hover:bg-black/70 rounded-full flex items-center justify-center mb-2 transition-all duration-300 border border-white/20 hover:border-white/40">
-        <svg class="w-5 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-        </svg>
-    </button>
-</div>
-
-
 
         <!-- Mobile Video Cards -->
         <div class="lg:hidden absolute bottom-5 left-0 right-0 px-5">
-            <div
-                class="flex gap-5 overflow-x-auto pb-2 scrollbar-thin scrollbar-track-white/10 scrollbar-thumb-white/30">
+            <div class="flex gap-5 overflow-x-auto pb-2 scrollbar-thin scrollbar-track-white/10 scrollbar-thumb-white/30">
                 <!-- Mobile Video Card 1 -->
-                <div
-                    class="relative min-w-[280px] h-36 bg-gradient-to-br from-black/30 via-black/50 to-black/70 rounded-xl overflow-hidden backdrop-blur-sm border border-white/10 transition-all duration-300 cursor-pointer bg-video-1 bg-cover bg-center bg-blend-overlay flex-shrink-0">
-                    <div
-                        class="absolute inset-0 bg-gradient-to-br from-orange-200/20 via-orange-300/60 to-orange-400/80 -z-10">
-                    </div>
-                    <div class="absolute top-3 right-3 text-xl font-light text-white z-10">03</div>
-
-                    <div class="absolute bottom-4 left-4 right-4 text-white text-xs font-medium leading-tight z-30">
-                        Traveller’s Tale | Jaipur |Gustasp and Jeroo Irani
+                <div class="relative min-w-[280px] h-36 bg-gradient-to-br from-black/30 via-black/50 to-black/70 rounded-xl overflow-hidden backdrop-blur-sm border border-white/10 transition-all duration-300 cursor-pointer bg-video-1 bg-cover bg-center bg-blend-overlay flex-shrink-0">
+                    <div class="absolute bottom-4 left-4 right-4 text-white text-xs font-medium leading-tight z-30 font-poppins">
+                        Traveller's Tale | Jaipur |Gustasp and Jeroo Irani
                     </div>
                 </div>
 
                 <!-- Mobile Video Card 2 -->
-                <div
-                    class="relative min-w-[280px] h-36 bg-gradient-to-br from-black/30 via-black/50 to-black/70 rounded-xl overflow-hidden backdrop-blur-sm border border-white/10 transition-all duration-300 cursor-pointer bg-video-2 bg-cover bg-center bg-blend-overlay flex-shrink-0">
-
-                    <div class="absolute top-3 right-3 text-xl font-light text-white z-10">01</div>
-
-                    <div class="absolute bottom-5 left-5 right-5 text-white text-sm font-medium leading-tight z-30">
+                <div class="relative min-w-[280px] h-36 bg-gradient-to-br from-black/30 via-black/50 to-black/70 rounded-xl overflow-hidden backdrop-blur-sm border border-white/10 transition-all duration-300 cursor-pointer bg-video-2 bg-cover bg-center bg-blend-overlay flex-shrink-0">
+                    <div class="absolute bottom-5 left-5 right-5 text-white text-sm font-medium leading-tight z-30 font-poppins">
                         Indigo, The Blue Gold of India | Jaipur |Dharmendar Kanwar
                     </div>
                 </div>
 
                 <!-- Mobile Video Card 3 -->
-                <div
-                    class="relative min-w-[280px] h-36 bg-gradient-to-br from-black/30 via-black/50 to-black/70 rounded-xl overflow-hidden backdrop-blur-sm border border-white/10 transition-all duration-300 cursor-pointer bg-video-3 bg-cover bg-center bg-blend-overlay flex-shrink-0">
-                    <div
-                        class="absolute inset-0 bg-gradient-to-br from-orange-200/20 via-orange-300/60 to-orange-400/80 -z-10">
+                <div class="relative min-w-[280px] h-36 bg-gradient-to-br from-black/30 via-black/50 to-black/70 rounded-xl overflow-hidden backdrop-blur-sm border border-white/10 transition-all duration-300 cursor-pointer bg-video-3 bg-cover bg-center bg-blend-overlay flex-shrink-0">
+                    <div class="absolute bottom-4 left-4 right-4 text-white text-xs font-medium leading-tight z-30 font-poppins">
+                        A tête-à-tête with Jaipur's royalty and what they love about their city | Jaipur |Dharmendar Kanwar 
                     </div>
-                    <div class="absolute top-3 right-3 text-xl font-light text-white z-10">02</div>
+                </div>
 
-                    <div class="absolute bottom-4 left-4 right-4 text-white text-xs font-medium leading-tight z-30">
-                        A tête-à-tête with Jaipur’s royalty and what they love about their city | Jaipur |Dharmendar
-                        Kanwar 
+                <!-- Mobile Video Card 4 -->
+                <div class="relative min-w-[280px] h-36 bg-gradient-to-br from-black/30 via-black/50 to-black/70 rounded-xl overflow-hidden backdrop-blur-sm border border-white/10 transition-all duration-300 cursor-pointer bg-video-4 bg-cover bg-center bg-blend-overlay flex-shrink-0">
+                    <div class="absolute bottom-4 left-4 right-4 text-white text-xs font-medium leading-tight z-30 font-poppins">
+                       A cruise into the sunset | Goa | Anuradha Goyal
                     </div>
                 </div>
             </div>
@@ -177,10 +153,8 @@
 
     <!-- Explore Destinations Section -->
     <section class="bg-gradient-to-b from-cream to-cream py-20 px-10 relative">
-        <div
-            class="destinations-container max-w-7xl mx-auto relative px-8 lg:px-12 xl:px-16 pb- transition-all duration-300">
-            <h2
-                class="text-center text-3xl lg:text-3xl font-semibold text-brown-custom my-5 mb-10 leading-tight font-serif">
+        <div class="destinations-container max-w-7xl mx-auto relative px-8 lg:px-12 xl:px-16 pb- transition-all duration-300">
+            <h2 class="text-center text-3xl lg:text-3xl font-semibold text-brown-custom my-5 mb-10 leading-tight font-poppins">
                 EXPLORE DESTINATIONS
             </h2>
 
@@ -189,60 +163,41 @@
                 <!-- Mobile: Horizontal scroll, Desktop: Flex wrap -->
                 <div class="overflow-x-auto lg:overflow-x-visible pb-4">
                     <div class="flex gap-5 min-w-max lg:min-w-0 px-4 lg:px-0 lg:justify-center lg:flex-wrap">
-                       <!-- Destination Card 1 - Goa -->
-                        <div
-                            class="destination-card relative cursor-pointer transition-all duration-[600ms] ease-[cubic-bezier(0.25,0.46,0.45,0.94)] transform-gpu flex-shrink-0 lg:flex-shrink -translate-y-4 scale-110 shadow-2xl shadow-blue-500/25 brightness-110 mb-4 group">
-                            <div
-                                class="w-68 h-69 rounded-2xl relative overflow-hidden shadow-xl bg-dest-1 bg-cover bg-center">
-                                <div class="absolute inset-0 bg-gradient-to-br from-black/30 to-black/10 opacity-20">
-                                </div>
-                                <div class="absolute left-1/2 transform -translate-x-1/2 bottom-6 text-lg lg:text-xl text-white font-bold uppercase tracking-wide z-20 scale-110"
-                                    style="text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7), 0 0 20px rgba(255, 255, 255, 0.3);">
+                        <!-- Destination Card 1 - Goa -->
+                        <div class="destination-card relative cursor-pointer transition-all duration-[600ms] ease-[cubic-bezier(0.25,0.46,0.45,0.94)] transform-gpu flex-shrink-0 lg:flex-shrink -translate-y-4 scale-110 shadow-2xl shadow-blue-500/25 brightness-110 mb-4 group">
+                            <div class="w-68 h-69 rounded-2xl relative overflow-hidden shadow-xl bg-dest-1 bg-cover bg-center">
+                                <div class="absolute inset-0 bg-gradient-to-br from-black/30 to-black/10 opacity-20"></div>
+                                <div class="absolute left-1/2 transform -translate-x-1/2 bottom-6 text-lg lg:text-xl text-white font-bold uppercase tracking-wide z-20 scale-110 font-poppins" style="text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7), 0 0 20px rgba(255, 255, 255, 0.3);">
                                     GOA
                                 </div>
                             </div>
                         </div>
 
                         <!-- Destination Card 2 - Udaipur -->
-                        <div
-                            class="destination-card relative cursor-pointer transition-all duration-[600ms] ease-[cubic-bezier(0.25,0.46,0.45,0.94)] transform-gpu flex-shrink-0 lg:flex-shrink hover:-translate-y-2 hover:scale-105 mb-4">
-                            <div
-                                class="w-68 h-69 rounded-2xl relative overflow-hidden shadow-lg transition-all duration-300 bg-dest-2 bg-cover bg-center">
-                                <div
-                                    class="absolute inset-0 bg-gradient-to-br from-black/30 to-black/10 opacity-50 transition-opacity duration-300 hover:opacity-30">
-                                </div>
-                                <div class="absolute left-1/2 transform -translate-x-1/2 bottom-6 text-lg lg:text-xl text-white font-bold uppercase tracking-wide z-20"
-                                    style="text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
+                        <div class="destination-card relative cursor-pointer transition-all duration-[600ms] ease-[cubic-bezier(0.25,0.46,0.45,0.94)] transform-gpu flex-shrink-0 lg:flex-shrink hover:-translate-y-2 hover:scale-105 mb-4">
+                            <div class="w-68 h-69 rounded-2xl relative overflow-hidden shadow-lg transition-all duration-300 bg-dest-2 bg-cover bg-center">
+                                <div class="absolute inset-0 bg-gradient-to-br from-black/30 to-black/10 opacity-50 transition-opacity duration-300 hover:opacity-30"></div>
+                                <div class="absolute left-1/2 transform -translate-x-1/2 bottom-6 text-lg lg:text-xl text-white font-bold uppercase tracking-wide z-20 font-poppins" style="text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
                                     UDAIPUR
                                 </div>
                             </div>
                         </div>
 
                         <!-- Destination Card 3 - Jaipur -->
-                        <div
-                            class="destination-card relative cursor-pointer transition-all duration-[600ms] ease-[cubic-bezier(0.25,0.46,0.45,0.94)] transform-gpu flex-shrink-0 lg:flex-shrink hover:-translate-y-2 hover:scale-105 mb-4">
-                            <div
-                                class="w-68 h-69 rounded-2xl relative overflow-hidden shadow-lg transition-all duration-300 bg-dest-3 bg-cover bg-center">
-                                <div
-                                    class="absolute inset-0 bg-gradient-to-br from-black/30 to-black/10 opacity-50 transition-opacity duration-300 hover:opacity-30">
-                                </div>
-                                <div class="absolute left-1/2 transform -translate-x-1/2 bottom-6 text-lg lg:text-xl text-white font-bold uppercase tracking-wide z-20"
-                                    style="text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
+                        <div class="destination-card relative cursor-pointer transition-all duration-[600ms] ease-[cubic-bezier(0.25,0.46,0.45,0.94)] transform-gpu flex-shrink-0 lg:flex-shrink hover:-translate-y-2 hover:scale-105 mb-4">
+                            <div class="w-68 h-69 rounded-2xl relative overflow-hidden shadow-lg transition-all duration-300 bg-dest-3 bg-cover bg-center">
+                                <div class="absolute inset-0 bg-gradient-to-br from-black/30 to-black/10 opacity-50 transition-opacity duration-300 hover:opacity-30"></div>
+                                <div class="absolute left-1/2 transform -translate-x-1/2 bottom-6 text-lg lg:text-xl text-white font-bold uppercase tracking-wide z-20 font-poppins" style="text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
                                     JAIPUR
                                 </div>
                             </div>
                         </div>
 
                         <!-- Destination Card 4 - Rishikesh -->
-                        <div
-                            class="destination-card relative cursor-pointer transition-all duration-[600ms] ease-[cubic-bezier(0.25,0.46,0.45,0.94)] transform-gpu flex-shrink-0 lg:flex-shrink hover:-translate-y-2 hover:scale-105 mb-4">
-                            <div
-                                class="w-68 h-69 rounded-2xl relative overflow-hidden shadow-lg transition-all duration-300 bg-dest-4 bg-cover bg-center">
-                                <div
-                                    class="absolute inset-0 bg-gradient-to-br from-black/30 to-black/10 opacity-50 transition-opacity duration-300 hover:opacity-30">
-                                </div>
-                                <div class="absolute left-1/2 transform -translate-x-1/2 bottom-6 text-lg lg:text-xl text-white font-bold uppercase tracking-wide z-20"
-                                    style="text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
+                        <div class="destination-card relative cursor-pointer transition-all duration-[600ms] ease-[cubic-bezier(0.25,0.46,0.45,0.94)] transform-gpu flex-shrink-0 lg:flex-shrink hover:-translate-y-2 hover:scale-105 mb-4">
+                            <div class="w-68 h-69 rounded-2xl relative overflow-hidden shadow-lg transition-all duration-300 bg-dest-4 bg-cover bg-center">
+                                <div class="absolute inset-0 bg-gradient-to-br from-black/30 to-black/10 opacity-50 transition-opacity duration-300 hover:opacity-30"></div>
+                                <div class="absolute left-1/2 transform -translate-x-1/2 bottom-6 text-lg lg:text-xl text-white font-bold uppercase tracking-wide z-20 font-poppins" style="text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
                                     RISHIKESH
                                 </div>
                             </div>
@@ -251,28 +206,20 @@
                 </div>
 
                 <!-- Navigation Indicators -->
-                <div class="flex justify-center items-center gap-4 mt-8">
-                    <div
-                        class="nav-dot active w-11 h-11 rounded-full flex items-center justify-center text-base font-bold cursor-pointer transition-all duration-300 bg-green-custom text-white transform scale-110 shadow-lg border-0">
+                <div class="flex justify-center items-center gap-2 md:gap-4 mt-8 px-2">
+                    <div class="nav-dot active w-8 h-8 md:w-11 md:h-11 flex-shrink-0 rounded-full flex items-center justify-center text-xs md:text-base font-bold cursor-pointer transition-all duration-300 bg-green-custom text-white transform scale-110 shadow-lg border-0 font-poppins">
                         01
                     </div>
-                    <div class="w-15 h-0.5 bg-green-custom/60"></div>
-
-                    <div
-                        class="nav-dot w-11 h-11 rounded-full flex items-center justify-center text-base font-bold cursor-pointer transition-all duration-300 bg-green-custom/20 text-green-custom border-2 border-green-custom hover:bg-green-custom/30 hover:scale-105 hover:shadow-lg">
+                    <div class="w-6 md:w-15 h-0.5 bg-green-custom/60 flex-shrink-0"></div>
+                    <div class="nav-dot w-8 h-8 md:w-11 md:h-11 flex-shrink-0 rounded-full flex items-center justify-center text-xs md:text-base font-bold cursor-pointer transition-all duration-300 bg-green-custom/20 text-green-custom border-2 border-green-custom hover:bg-green-custom/30 hover:scale-105 hover:shadow-lg font-poppins">
                         02
                     </div>
-                    <div class="w-15 h-0.5 bg-green-custom/60"></div>
-
-                    <div
-                        class="nav-dot w-11 h-11 rounded-full flex items-center justify-center text-base font-bold cursor-pointer transition-all duration-300 bg-green-custom/20 text-green-custom border-2 border-green-custom hover:bg-green-custom/30 hover:scale-105 hover:shadow-lg">
-
+                    <div class="w-6 md:w-15 h-0.5 bg-green-custom/60 flex-shrink-0"></div>
+                    <div class="nav-dot w-8 h-8 md:w-11 md:h-11 flex-shrink-0 rounded-full flex items-center justify-center text-xs md:text-base font-bold cursor-pointer transition-all duration-300 bg-green-custom/20 text-green-custom border-2 border-green-custom hover:bg-green-custom/30 hover:scale-105 hover:shadow-lg font-poppins">
                         03
                     </div>
-                    <div class="w-15 h-0.5 bg-green-custom/60"></div>
-
-                    <div
-                        class="nav-dot w-11 h-11 rounded-full flex items-center justify-center text-base font-bold cursor-pointer transition-all duration-300 bg-green-custom/20 text-green-custom border-2 border-green-custom hover:bg-green-custom/30 hover:scale-105 hover:shadow-lg">
+                    <div class="w-6 md:w-15 h-0.5 bg-green-custom/60 flex-shrink-0"></div>
+                    <div class="nav-dot w-8 h-8 md:w-11 md:h-11 flex-shrink-0 rounded-full flex items-center justify-center text-xs md:text-base font-bold cursor-pointer transition-all duration-300 bg-green-custom/20 text-green-custom border-2 border-green-custom hover:bg-green-custom/30 hover:scale-105 hover:shadow-lg font-poppins">
                         04
                     </div>
                 </div>
@@ -285,84 +232,61 @@
         <div class="max-w-7xl mx-auto flex gap-6">
             <!-- Main Content -->
             <section class="flex-1 bg-white p-5 md:p-8 rounded-lg mb-6 shadow-lg">
-                <h2 class="text-center text-[22px] md:text-[28px] font-semibold text-[#8B4513] mb-2 font-serif">
+                <h2 class="text-center text-[22px] md:text-[28px] font-semibold text-[#8B4513] mb-2 font-poppins">
                     For a taste of local culture, observe the fascinating Tripurari Poornima in North Goa
                 </h2>
-                <h4
-                    class="text-center text-xs text-black mt-2 mb-6 pt-3 border-t border-gray-200 font-sans font-normal">
+                <h4 class="text-center text-xs text-black mt-2 mb-6 pt-3 border-t border-gray-200 font-poppins font-normal">
                     👤Manjulika Pramod 🕐 3 min
                 </h4>
                 <!-- Fort Image -->
-                <div class="w-full h-[300px] md:h-[450px] rounded-lg bg-cover bg-center my-6 shadow-lg"
-                    style="background-image: url('img/fort.png');"></div>
-
+                <div class="w-full h-[300px] md:h-[450px] rounded-lg bg-cover bg-center my-6 shadow-lg" style="background-image: url('img/fort.png');"></div>
+                     
                 <!-- Text content with floating image -->
-                <div class="text-[14px] leading-relaxed text-justify">
+                <div class="text-[16px] leading-relaxed text-justify font-poppins">
                     <!-- Floating Image -->
-                    <div class="w-full max-w-[300px] h-[200px] md:h-[280px] rounded-lg bg-cover bg-center shadow-lg mb-4 float-right ml-6 relative"
-                        style="background-image: url('img/image\ 134.png');">
-
+                    <div class="w-full max-w-[300px] h-[200px] md:h-[280px] rounded-lg bg-cover bg-center shadow-lg mb-4 float-right ml-6 relative" style="background-image: url('img/image\ 134.png');">
                     </div>
 
                     <p class="mb-4">
-                        It is said that there are as many festivals in India as there are days in a year! </p>
+                        It is said that there are as many festivals in India as there are days in a year! 
+                    </p>
+               
                     <p class="mb-4">
-                        No matter where you travel in the country, there’s a celebration and all are invited to
-                        participate. I always check out on local events, especially festivals, to learn more about the
-                        culture of the place I’m travelling to. To me festivals embody many emotions, actions, and
-                        events. They epitomize joy, happiness, veneration, prayers, colors, lights, enthusiasm, and good
-                        food. And that’s how I came to witness the fascinating Tripurari Poornima in Vithalapur in
-                        Sanquelim, in North Goa. </p>
-                    <p class="mb-4">
-                        Observed as a state festival in Goa, locals celebrate Deeparadhana (lamp of fire worship) or
-                        Tripurari Poornima, on the day of the full moon in October or November as per the lunar calendar
-                        for the year. In other parts of India, it also observed as Dev Deepawali, which means Diwali of
-                        the Gods and marks the end of the month-long Kartik Snan and fasting, especially in North India.
+                        No matter where you travel in the country, there's a celebration and all are invited to participate. I always check out on local events, especially festivals, to learn more about the culture of the place I'm travelling to. To me festivals embody many emotions, actions, and events. They epitomize joy, happiness, veneration, prayers, colors, lights, enthusiasm, and good food. And that's how I came to witness the fascinating Tripurari Poornima in Vithalapur in Sanquelim, in North Goa. 
                     </p>
 
-                    <h2
-                        class="text-center text-[22px] md:text-[28px] font-semibold text-[#8B4513] mb-2 font-serif underline">
+                    <p class="mb-4">
+                        Observed as a state festival in Goa, locals celebrate Deeparadhana (lamp of fire worship) or Tripurari Poornima, on the day of the full moon in October or November as per the lunar calendar for the year. In other parts of India, it also observed as Dev Deepawali, which means Diwali of the Gods and marks the end of the month-long Kartik Snan and fasting, especially in North India.
+                    </p>
+
+                    <h2 class="text-center text-[22px] md:text-[28px] font-semibold text-[#8B4513] mb-2 font-poppins underline">
                         A Moveable Feast
                     </h2>
 
                     <p class="mb-4">
-                        Despite Goa being the quintessential party destination, Vithalapur in North Goa has held on to
-                        its traditional rituals and customs associated with Tripurari Poornima. The Valvanti River
-                        illuminates like a palace while the full moon bestows its blessings on the people of Sanquelim.
-                        Hundreds of diyas and lamps are set afloat in the river. Every house is decked up with lights
-                        and rangoli to celebrate the victory of the Gods over the demon. </p>
+                        Despite Goa being the quintessential party destination, Vithalapur in North Goa has held on to its traditional rituals and customs associated with Tripurari Poornima. The Valvanti River illuminates like a palace while the full moon bestows its blessings on the people of Sanquelim. Hundreds of diyas and lamps are set afloat in the river. Every house is decked up with lights and rangoli to celebrate the victory of the Gods over the demon. 
+                    </p>
 
                     <p class="mb-4">
-                        The celebrations commence with the “palanquin procession of Vithal Rakhumai”, amidst chanting
-                        and traditional music compelling everyone to join in the festivities as it reaches the bank of
-                        the Valvanti river. Added to this is the colourful boat show replete with bells and whistles
-                        which is also a huge draw among participants and spectators. Watching these boats in the water
-                        is almost akin to a boat party and the “Saranga” [balloon lamps] launched into the sky is a
-                        magical sight! The festival concludes with burning of the demon’s effigy that has been set in
-                        the midst of the river followed by grand fireworks. </p>
+                        The celebrations commence with the "palanquin procession of Vithal Rakhumai", amidst chanting and traditional music compelling everyone to join in the festivities as it reaches the bank of the Valvanti river. Added to this is the colourful boat show replete with bells and whistles which is also a huge draw among participants and spectators. Watching these boats in the water is almost akin to a boat party and the "Saranga" [balloon lamps] launched into the sky is a magical sight! The festival concludes with burning of the demon's effigy that has been set in the midst of the river followed by grand fireworks. 
+                    </p>
 
                     <p class="mb-4">
-                        Over the years, a series of cultural programs, dance-dramas, displays of fireworks, and the
-                        burning of the effigy of the demon has become a part of the celebrations. Villagers and tourists
-                        celebrate way beyond midnight on this full moon night. </p>
+                        Over the years, a series of cultural programs, dance-dramas, displays of fireworks, and the burning of the effigy of the demon has become a part of the celebrations. Villagers and tourists celebrate way beyond midnight on this full moon night. 
+                    </p>
+                    
                     <div class="text-center my-8 py-5">
-                        <img src="img/Add_banner (5).png" alt="Advertisement"
-                            class="max-w-full h-auto w-full lg:w-30 lg:h-22 rounded mx-auto">
+                        <img src="img/Add_banner (5).png" alt="Advertisement" class="max-w-full h-auto w-full lg:w-30 lg:h-22 rounded mx-auto">
                     </div>
 
-                    <h2 class="text-center text-[22px] md:text-[28px] font-semibold text-[#8B4513] mb-2 font-serif underline">
+                    <h2 class="text-center text-[22px] md:text-[28px] font-semibold text-[#8B4513] mb-2 font-poppins underline">
                         The legends and tales behind Tripurari Poornima
                     </h2>
+                    
                     <p class="mb-4">
-                        The festivity and enthusiasm associated with Tripurari Poornima at large are a tribute to Lord
-                        Shiva and Krishna. It is believed that Lord Shiva liberated people from the oppressive ruler and
-                        killed the demon Tripurasura (Tripur). After 3 days of an intense fight, Shiva also freed demon
-                        Tripurasura’s three impregnable cities of gold, silver and iron on the day of Kartik Purnima.
-                        The ‘devas’ were delighted because this was the end of the demon’s attack and torment and the
-                        victory of good over evil. This festival of illuminations is also associated with Radha Krishna
-                        tales. The mythological stories say that Radha Krishna performed rasleela with the gopis on this
-                        day.
+                        The festivity and enthusiasm associated with Tripurari Poornima at large are a tribute to Lord Shiva and Krishna. It is believed that Lord Shiva liberated people from the oppressive ruler and killed the demon Tripurasura (Tripur). After 3 days of an intense fight, Shiva also freed demon Tripurasura's three impregnable cities of gold, silver and iron on the day of Kartik Purnima. The 'devas' were delighted because this was the end of the demon's attack and torment and the victory of good over evil. This festival of illuminations is also associated with Radha Krishna tales. The mythological stories say that Radha Krishna performed rasleela with the gopis on this day.
                     </p>
+                    
                     <!-- Clear float -->
                     <div class="clear-both"></div>
                 </div>
@@ -372,121 +296,89 @@
             <aside class="hidden lg:block w-80 h-fit sticky top-4">
                 <!-- Ad Banner -->
                 <div class="bg-white rounded-lg overflow-hidden mb-6 shadow-lg">
-                    <img src="img/ad banner.png" alt="Your Spain Escape - QuoteYourRate Ad Banner"
-                        class="w-full h-auto object-cover cursor-pointer hover:opacity-90 transition-opacity duration-200">
+                    <img src="img/ad banner.png" alt="Your Spain Escape - QuoteYourRate Ad Banner" class="w-full h-auto object-cover cursor-pointer hover:opacity-90 transition-opacity duration-200">
                 </div>
-
 
                 <!-- Cities List -->
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                    <h3 class="text-lg font-semibold text-gray-800 p-4 border-b border-gray-200">More Cities to Explore
-                    </h3>
+                    <h3 class="text-lg font-semibold text-gray-800 p-4 border-b border-gray-200 font-poppins">More Cities to Explore</h3>
                     <div class="max-h-96 overflow-y-auto custom-scrollbar">
                         <ul class="divide-y divide-gray-100">
-                            <li
-                                class="p-3 hover:bg-gray-50 transition-colors duration-150 cursor-pointer flex items-center">
-                                <span class="text-gray-400 mr-3 text-sm">🐪</span>
-                                <span class="text-gray-700 text-sm">Traveller’s Tale | Jaipur | Gustasp and Jeroo Irani </span>
+                            <li class="p-3 hover:bg-gray-50 transition-colors duration-150 cursor-pointer flex items-center">
+                                <span class="text-gray-400 mr-3 text-sm"></span>
+                                <span class="text-gray-700 text-sm font-poppins">Traveller's Tale | Jaipur | Gustasp and Jeroo Irani</span>
                             </li>
-                            <li
-                                class="p-3 hover:bg-gray-50 transition-colors duration-150 cursor-pointer flex items-center">
-                                <span class="text-gray-400 mr-3 text-sm">🐪</span>
-                                <span class="text-gray-700 text-sm">A tête-à-tête with Jaipur’s royalty and what they
-                                    love about their city | Jaipur | Dharmendar Kanwar </span>
+                            <li class="p-3 hover:bg-gray-50 transition-colors duration-150 cursor-pointer flex items-center">
+                                <span class="text-gray-400 mr-3 text-sm"></span>
+                                <span class="text-gray-700 text-sm font-poppins">A tête-à-tête with Jaipur's royalty and what they love about their city | Jaipur | Dharmendar Kanwar</span>
                             </li>
-
-                            <li
-                                class="p-3 hover:bg-gray-50 transition-colors duration-150 cursor-pointer flex items-center">
-                                <span class="text-gray-400 mr-3 text-sm">🐪</span>
-                                <span class="text-gray-700 text-sm">A Heritage walk through Chhattis Karkhanas | Jaipur
-                                    | Dharmendar Kanwar </span>
+                            <li class="p-3 hover:bg-gray-50 transition-colors duration-150 cursor-pointer flex items-center">
+                                <span class="text-gray-400 mr-3 text-sm"></span>
+                                <span class="text-gray-700 text-sm font-poppins">A Heritage walk through Chhattis Karkhanas | Jaipur | Dharmendar Kanwar</span>
                             </li>
-                            <li
-                                class="p-3 hover:bg-gray-50 transition-colors duration-150 cursor-pointer flex items-center">
-                                <span class="text-gray-400 mr-3 text-sm">🐪</span>
-                                <span class="text-gray-700 text-sm">Indigo, The Blue Gold of India | Jaipur | Dharmendar
-                                    Kanwar </span>
+                            <li class="p-3 hover:bg-gray-50 transition-colors duration-150 cursor-pointer flex items-center">
+                                <span class="text-gray-400 mr-3 text-sm"></span>
+                                <span class="text-gray-700 text-sm font-poppins">Indigo, The Blue Gold of India | Jaipur | Dharmendar Kanwar</span>
                             </li>
-                            <li
-                                class="p-3 hover:bg-gray-50 transition-colors duration-150 cursor-pointer flex items-center">
-                                <span class="text-gray-400 mr-3 text-sm">🏖️</span>
-                                <span class="text-gray-700 text-sm">Goa’s unique Tripurari Poornima celebrations | Goa | Manjulika Pramod </span>
+                            <li class="p-3 hover:bg-gray-50 transition-colors duration-150 cursor-pointer flex items-center">
+                                <span class="text-gray-400 mr-3 text-sm"></span>
+                                <span class="text-gray-700 text-sm font-poppins">Goa's unique Tripurari Poornima celebrations | Goa | Manjulika Pramod</span>
                             </li>
-                            <li
-                                class="p-3 hover:bg-gray-50 transition-colors duration-150 cursor-pointer flex items-center">
-                                <span class="text-gray-400 mr-3 text-sm">🏖️</span>
-                                <span class="text-gray-700 text-sm">Reinventing the WAY, we travel | Goa | Shikha
-                                    Tripathi </span>
+                            <li class="p-3 hover:bg-gray-50 transition-colors duration-150 cursor-pointer flex items-center">
+                                <span class="text-gray-400 mr-3 text-sm"></span>
+                                <span class="text-gray-700 text-sm font-poppins">Reinventing the WAY, we travel | Goa | Shikha Tripathi</span>
                             </li>
-                            <li
-                                class="p-3 hover:bg-gray-50 transition-colors duration-150 cursor-pointer flex items-center">
-                                <span class="text-gray-400 mr-3 text-sm">🏖️</span>
-                                <span class="text-gray-700 text-sm">The Best places for sundowners | Goa | Pallavi
-                                    Pasricha </span>
+                            <li class="p-3 hover:bg-gray-50 transition-colors duration-150 cursor-pointer flex items-center">
+                                <span class="text-gray-400 mr-3 text-sm"></span>
+                                <span class="text-gray-700 text-sm font-poppins">The Best places for sundowners | Goa | Pallavi Pasricha</span>
                             </li>
-                            <li
-                                class="p-3 hover:bg-gray-50 transition-colors duration-150 cursor-pointer flex items-center">
-                                <span class="text-gray-400 mr-3 text-sm">🏖️</span>
-                                <span class="text-gray-700 text-sm"> Goin’ Goan Chef by Chef | Goa | Bunny Suraiya </span>
+                            <li class="p-3 hover:bg-gray-50 transition-colors duration-150 cursor-pointer flex items-center">
+                                <span class="text-gray-400 mr-3 text-sm"></span>
+                                <span class="text-gray-700 text-sm font-poppins">Goin' Goan Chef by Chef | Goa | Bunny Suraiya</span>
                             </li>
-                            <li
-                                class="p-3 hover:bg-gray-50 transition-colors duration-150 cursor-pointer flex items-center">
-                                <span class="text-gray-400 mr-3 text-sm">🏖️</span>
-                                <span class="text-gray-700 text-sm">A cruise into the sunset | Goa | Anuradha Goyal </span>
+                            <li class="p-3 hover:bg-gray-50 transition-colors duration-150 cursor-pointer flex items-center">
+                                <span class="text-gray-400 mr-3 text-sm"></span>
+                                <span class="text-gray-700 text-sm font-poppins">A cruise into the sunset | Goa | Anuradha Goyal</span>
                             </li>
-                            <li
-                                class="p-3 hover:bg-gray-50 transition-colors duration-150 cursor-pointer flex items-center">
-                                <span class="text-gray-400 mr-3 text-sm">🌊</span>
-                                <span class="text-gray-700 text-sm">Finding your bliss | Rishikesh | Mariellen Ward 
-                                     </span>
+                            <li class="p-3 hover:bg-gray-50 transition-colors duration-150 cursor-pointer flex items-center">
+                                <span class="text-gray-400 mr-3 text-sm"></span>
+                                <span class="text-gray-700 text-sm font-poppins">Finding your bliss | Rishikesh | Mariellen Ward</span>
                             </li>
-                            <li
-                                class="p-3 hover:bg-gray-50 transition-colors duration-150 cursor-pointer flex items-center">
-                                <span class="text-gray-400 mr-3 text-sm">🌊</span>
-                                <span class="text-gray-700 text-sm">In reverence to the river Ganges - Jai
-                                    Gange! | Rishikesh | Anuradha Goyal </span>
+                            <li class="p-3 hover:bg-gray-50 transition-colors duration-150 cursor-pointer flex items-center">
+                                <span class="text-gray-400 mr-3 text-sm"></span>
+                                <span class="text-gray-700 text-sm font-poppins">In reverence to the river Ganges - Jai Gange! | Rishikesh | Anuradha Goyal</span>
                             </li>
-                            <li
-                                class="p-3 hover:bg-gray-50 transition-colors duration-150 cursor-pointer flex items-center">
-                                <span class="text-gray-400 mr-3 text-sm">🌊</span>
-                                <span class="text-gray-700 text-sm">A river run for that shot of adrenaline | Rishikesh | Delhi Fundos </span>
+                            <li class="p-3 hover:bg-gray-50 transition-colors duration-150 cursor-pointer flex items-center">
+                                <span class="text-gray-400 mr-3 text-sm"></span>
+                                <span class="text-gray-700 text-sm font-poppins">A river run for that shot of adrenaline | Rishikesh | Delhi Fundos</span>
                             </li>
-                            <li
-                                class="p-3 hover:bg-gray-50 transition-colors duration-150 cursor-pointer flex items-center">
-                                <span class="text-gray-400 mr-3 text-sm">🌊</span>
-                                <span class="text-gray-700 text-sm"> A Drop of Divine | Rishikesh | Rishikesh | Shikha
-                                    Tripathi </span>
+                            <li class="p-3 hover:bg-gray-50 transition-colors duration-150 cursor-pointer flex items-center">
+                                <span class="text-gray-400 mr-3 text-sm"></span>
+                                <span class="text-gray-700 text-sm font-poppins">A Drop of Divine | Rishikesh | Rishikesh | Shikha Tripathi</span>
                             </li>
-                            <li
-                                class="p-3 hover:bg-gray-50 transition-colors duration-150 cursor-pointer flex items-center">
-                                <span class="text-gray-400 mr-3 text-sm">🌊</span>
-                                <span class="text-gray-700 text-sm">An oasis of serenity | Rishikesh | Shikha Tripathi
-                                </span>
+                            <li class="p-3 hover:bg-gray-50 transition-colors duration-150 cursor-pointer flex items-center">
+                                <span class="text-gray-400 mr-3 text-sm"></span>
+                                <span class="text-gray-700 text-sm font-poppins">An oasis of serenity | Udaipur | Shikha Tripathi</span>
                             </li>
-                            <li
-                                class="p-3 hover:bg-gray-50 transition-colors duration-150 cursor-pointer flex items-center">
-                                <span class="text-gray-400 mr-3 text-sm">🌅</span>
-                                <span class="text-gray-700 text-sm">An 18th century hidden gem | Udaipur | Delhi
-                                    Fundos </span>
+                            <li class="p-3 hover:bg-gray-50 transition-colors duration-150 cursor-pointer flex items-center">
+                                <span class="text-gray-400 mr-3 text-sm"></span>
+                                <span class="text-gray-700 text-sm font-poppins">An 18th century hidden gem | Udaipur | Delhi Fundos</span>
                             </li>
-                            <li
-                                class="p-3 hover:bg-gray-50 transition-colors duration-150 cursor-pointer flex items-center">
-                                <span class="text-gray-400 mr-3 text-sm">🌅</span>
-                                <span class="text-gray-700 text-sm">Mewar on a platter | Udaipur | Manjulika
-                                    Pramod </span>
+                            <li class="p-3 hover:bg-gray-50 transition-colors duration-150 cursor-pointer flex items-center">
+                                <span class="text-gray-400 mr-3 text-sm"></span>
+                                <span class="text-gray-700 text-sm font-poppins">Mewar on a platter | Udaipur | Manjulika Pramod</span>
                             </li>
-                            <li
-                                class="p-3 hover:bg-gray-50 transition-colors duration-150 cursor-pointer flex items-center">
-                                <span class="text-gray-400 mr-3 text-sm">🌅</span>
-                                <span class="text-gray-700 text-sm"> Romancing the lake city | Udaipur | Chitra Narayanan </span>
+                            <li class="p-3 hover:bg-gray-50 transition-colors duration-150 cursor-pointer flex items-center">
+                                <span class="text-gray-400 mr-3 text-sm"></span>
+                                <span class="text-gray-700 text-sm font-poppins">Romancing the lake city | Udaipur | Chitra Narayanan</span>
                             </li>
-
                         </ul>
                     </div>
                 </div>
             </aside>
         </div>
     </div>
+    
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             const scrollContainer = document.getElementById('videoScroll');
@@ -494,7 +386,7 @@
             const scrollDownBtn = document.getElementById('scrollDown');
 
             let currentIndex = 0;
-            const cardHeight = 212; // 48 (h-48) + 20 (gap-5) = 212px
+            const cardHeight = 212;
             const totalCards = 4;
 
             function updateScroll() {
@@ -504,29 +396,20 @@
 
             scrollUpBtn.addEventListener('click', function () {
                 currentIndex--;
-
-                // Loop back to bottom when going past the first card
                 if (currentIndex < 0) {
-                    currentIndex = totalCards - 3; // Show last 3 cards (cards 1,2,3 - index 1)
+                    currentIndex = totalCards - 3;
                 }
-
                 updateScroll();
             });
 
             scrollDownBtn.addEventListener('click', function () {
                 currentIndex++;
-
-                // Loop back to top when going past the last possible position
-                if (currentIndex > totalCards - 3) { // Can't go beyond showing cards 2,3,4 (index 1)
-                    currentIndex = 0; // Back to showing cards 1,2,3 (index 0)
+                if (currentIndex > totalCards - 3) {
+                    currentIndex = 0;
                 }
-
                 updateScroll();
             });
         });
     </script>
-
-
 </body>
-
 </html>
